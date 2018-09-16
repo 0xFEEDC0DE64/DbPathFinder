@@ -1,5 +1,4 @@
-#ifndef MYWIDGET_H
-#define MYWIDGET_H
+#pragma once
 
 #include <QWidget>
 #include <QVector>
@@ -47,5 +46,3 @@ private:
     const Node *m_end;
     QVector<const Node *> m_result;
 };
-
-#endif // MYWIDGET_H
