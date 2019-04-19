@@ -21,4 +21,4 @@ set(FORMS
 
 add_executable(pathfinder ${HEADERS} ${SOURCES} ${FORMS})
 
-target_link_libraries(pathfinder Qt5::Core Qt5::Gui Qt5::Widgets)
+target_link_libraries(pathfinder stdc++ Qt5::Core Qt5::Gui Qt5::Widgets)
